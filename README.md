@@ -1,19 +1,17 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+Instagram Style Post Feed
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+This project is a small Instagram-style feed created using HTML, CSS and JavaScript.
+The goal of this project is to dynamically render multiple posts on the page using JavaScript, instead of hard-coding the HTML each time.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+All post details (name, username, avatar, image, comment, likes, etc.) are stored inside a JavaScript array.
+JavaScript loops through this array and displays each post on the webpage.
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+Features
 
-Happy Coding!
+Displays posts similar to Instagram layout
+
+All post data is loaded from a JavaScript array
+
+Double-click on the post image → increases like count
+
+Heart icon's border turns red when liked
