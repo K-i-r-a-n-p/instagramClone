@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 0;
+}
+section{
+    background-color: #fff;
+}
+
+.profile-pic,.pic{
+    border-radius: 36px;
+    width: 34px;
+    height: 38px;
+    padding: 5px;
+}
+.logo{
+    width: 127px;
+    height: 33px;
+    padding: 10px;
+}
+.pic{
+    float: left;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+h1{
+    font-size: 13px;
+    line-height: 100%;
+    font-weight: 700;
+    width: 307px;
+    height: 16px;
+    padding-top: 10px;
+    padding-left: 51px;
+    margin: 1px;
+}
+.place{
+    display: block;
+    height: 15px;
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.post{
+    width: 100%;
+    height: 375px;
+    padding-top: 15px;
+}
+.like,.comment,.share{
+    width: 23px;
+    height: 22px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+h2{
+    font-size: 13px;
+    font-weight: 700;
+    padding-left: 13px;
+}
+.comm{
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.full-content{
+    background-color: #EDEDED;
+;
+}
+.like:hover {
+    filter: invert(33%) sepia(98%) saturate(2574%) hue-rotate(345deg) brightness(92%) contrast(91%);
+}
+.comment:hover {
+    filter: invert(32%) sepia(81%) saturate(2280%) hue-rotate(185deg) brightness(96%) contrast(101%);
+}
+.share:hover {
+    filter: invert(51%) sepia(90%) saturate(302%) hue-rotate(81deg) brightness(96%) contrast(92%);
+}
+
+.username{
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.liked {
+    filter: invert(33%) sepia(98%) saturate(2574%) hue-rotate(345deg) brightness(92%) contrast(91%);
+}
